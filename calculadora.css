@@ -6,6 +6,7 @@
     margin-bottom: auto;
 }
 
+
 .contenedor {
     position: relative;
     display: flex;
@@ -206,17 +207,76 @@ button:active {
     justify-content: flex-end;
 }
 
+.circulo {
+    position: absolute;
+    width: 3%;
+    height: 4%;
+    background: #c985e9 0.30;
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    margin-left: 39.7%;
+    margin-top: -6%;
+    z-index: 3;
+}
+
+.cuadrado {
+    position: absolute;
+    width: 3%;
+    height: 10%;
+    background: #9500ff 0.30;
+    margin-left: 54.7%;
+    margin-top: 2%;
+    backdrop-filter: blur(2px);
+    z-index: 4;
+}
+
+.cuadradocolor {
+    position: absolute;
+    width: 3%;
+    height: 4%;
+    background: #e097dd;
+    margin-left: 32%;
+    margin-top: -2%;
+}
+
+.circulocolor {
+    position: absolute;
+    width: 3%;
+    height: 4%;
+    background: #09f;
+    margin-left: 74%;
+    margin-top: -5%;
+}
+
 .labienvenida {
-    margin-top: -15%;
-    margin-left: 73%;
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 15%;
     font-family: 'Inter', sans-serif;
     font-size: 90px;
     font-weight: 900;
     color: white;
 }
 
+
+
 .derechos {
-    margin-left: 1382px;
+    position: absolute;
+    margin-left: 15.2%;
+    margin-top: -8.2%;
+    z-index: 5;
+}
+
+.palabra3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.palabra4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color:#fff;
 }
 
 .container {
