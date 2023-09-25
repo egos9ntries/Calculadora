@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -6;
+
 }
 
 .tarjeta {
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -6;
+    z-index: 6;
 }
 
 .tarjeta::before {
@@ -72,22 +72,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: roll 8s ease 1s infinite backwards;
+    animation: fadeOut 4s forwards infinite;
     font-size: 15px;
+    margin-top: 6%;
 }
 
 .item:nth-child(1) {
-    animation-delay: 2s;
-    opacity: 0;
-}
-
-.item:nth-child(2) {
     animation-delay: 4s;
     opacity: 0;
 }
 
-@keyframes roll {
+.item:nth-child(2) {
+    margin-top: -10%;
+    animation-delay: 6s;
+    opacity: 0;
+}
+
+@keyframes fadeOut {
     0% {
+        transition: 4.s;
         opacity: 0;
         transform: translate3d(0, -70, 0);
     }
@@ -107,6 +110,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40%;
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 10px;
@@ -116,6 +120,7 @@
 }
 
 .botones {
+    z-index: 40;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2px;
@@ -126,14 +131,16 @@
 }
 
 .botones button {
+    z-index: 50;
     max-width: 50px;
     margin: 0;
     width: 100%;
     height: 30px;
     font-size: 18px;
+    border: 2px solid #000000;
     font-family: 'Inter', sans-serif;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .botones button:hover {
@@ -144,6 +151,7 @@
 }
 
 .resultado {
+    z-index: 30;
     text-align: center;
     margin-top: 1%;
 }
@@ -169,6 +177,7 @@
 }
 
 .resultado button::before {
+    z-index: 30;
     content: "";
     position: absolute;
     top: 0;
@@ -178,6 +187,7 @@
 }
 
 button:hover {
+    z-index: 30;
     background-image: linear-gradient(150deg, #9500ff, #09f);
     color: rgb(255, 255, 255);
     border: 1px solid #ffffff;
@@ -197,8 +207,8 @@ button:active {
 }
 
 .labienvenida {
-    margin-top: -245px;
-    margin-left: 1230px;
+    margin-top: -15%;
+    margin-left: 73%;
     font-family: 'Inter', sans-serif;
     font-size: 90px;
     font-weight: 900;
@@ -242,6 +252,7 @@ button:active {
 
     .contenedor-botones {
         max-width: 160px;
+        display: flex;
     }
 
     .botones button {
