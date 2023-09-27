@@ -207,63 +207,56 @@ button:active {
     justify-content: flex-end;
 }
 
-.circulo {
-    position: absolute;
-    width: 3%;
-    height: 4%;
-    background: #c985e9 0.30;
-    backdrop-filter: blur(2px);
-    border-radius: 50%;
-    margin-left: 39.7%;
-    margin-top: -6%;
-    z-index: 3;
-}
-
-.cuadrado {
-    position: absolute;
-    width: 3%;
-    height: 10%;
-    background: #9500ff 0.30;
-    margin-left: 54.7%;
-    margin-top: 2%;
-    backdrop-filter: blur(2px);
-    z-index: 4;
-}
 
 .cuadradocolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 3%;
-    height: 4%;
+    width: 0.3%;
+    padding: 0.5%;
     background: #e097dd;
     margin-left: 32%;
-    margin-top: -2%;
+    margin-top: -3%;
+    z-index: -1;
 }
 
 .circulocolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 3%;
-    height: 4%;
+    width: 0.3%;
+    padding: 0.5%;
     background: #09f;
-    margin-left: 74%;
-    margin-top: -5%;
+    margin-left: 76%;
+    margin-top: 1.7%;
+    z-index: -1;
 }
 
 .labienvenida {
-    position: absolute;
-    margin-top: -12%;
-    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55%;
+    margin-left: 170%;
     font-family: 'Inter', sans-serif;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900;
     color: white;
+    z-index: 6;
 }
 
 
 
 .derechos {
-    position: absolute;
-    margin-left: 15.2%;
-    margin-top: -8.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125%;
+    margin-top: -14%;
+    margin-right: 15%;
+    width: 90%;
     z-index: 5;
 }
 
