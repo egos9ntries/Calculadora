@@ -261,11 +261,14 @@ button:active {
     }
 }
 
+.cuadrado {
+    margin: 5%;
+}
 
 .limpieza {
+    margin: 5%;
     position: relative;
-    bottom: -90%;
-    left: 30%;
+    left: 25%;
     font-family: 'Inter', sans-serif;
     border: 2px solid #000000;
 }
@@ -275,10 +278,10 @@ button:active {
     width: 200px; 
     height: 300px; 
     border: 5px solid #ffffff; 
-    border-radius: 5px;
-    overflow-y: scroll; 
+    border-radius: 5px; 
     font-family: 'Inter', sans-serif;
-    margin-left: 45%;
+    margin-left: 60%;
     margin-bottom: 0%;
+    overflow-y: auto;
     position: absolute;
 }
