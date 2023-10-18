@@ -162,7 +162,7 @@ body {
 .resultado {
     z-index: 30;
     text-align: center;
-    margin-top: -2%;
+    margin-top: 5%;
 }
 
 .resultado button {
@@ -261,11 +261,13 @@ button:active {
     }
 }
 
-.histo {
-    margin: 4%;
-    margin-left: 5.5em;
+
+.limpieza {
+    position: relative;
+    bottom: -90%;
+    left: 30%;
     font-family: 'Inter', sans-serif;
-    border: 2px #000000 solid;
+    border: 2px solid #000000;
 }
 
 .histori {
@@ -279,12 +281,4 @@ button:active {
     margin-left: 45%;
     margin-bottom: 0%;
     position: absolute;
-}
-
-.limpieza {
-    position: relative;
-    bottom: -92%;
-    left: 30%;
-    font-family: 'Inter', sans-serif;
-    
 }
